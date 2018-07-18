@@ -6,4 +6,8 @@ class App < Sinatra::Base
     "Hello, world!"
   end
 
+  resp '/' do
+    "Hello, World!"
+  end
+
 end
