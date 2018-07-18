@@ -6,12 +6,9 @@ class App < Sinatra::Base
     "Hello, world!"
   end
 
- #  def call(env)
- #   resp = Sinatra::Base.new
- #   resp.write "Hello, World!"
- #   resp.status = 200
- #   resp.finish
- # end
+   resp.write "Hello, World!"
+
+ end
 
 
 end
