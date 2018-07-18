@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
   def call(env)
    resp = Sinatra::Base.new
-   resp.write "Hello, World"
+   resp.write "Hello, World!"
    resp.finish
  end
 
