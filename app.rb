@@ -10,8 +10,8 @@ class App < Sinatra::Base
    resp = Sinatra::Base.new
    resp.write "Hello, World!"
    resp.status = 200
-
+   resp.finish
  end
-  resp.finish
+
 
 end
